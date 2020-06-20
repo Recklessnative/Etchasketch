@@ -4,30 +4,45 @@ background-color: #A7CECB;
 
 }
 
+h1{
+color:#1C77C3;
+font-family: 'Arial';
+font-weight: bold;
+font-size: 50px;
+}
+
 #top{
     display: flex;
     justify-content: center;
     align-items:center;
 margin-left:auto;
 margin-right:auto;
-margin-top: 60px;
 width: 600px;
-flex-direction:column;
+flex-direction: column;
+
+}
+
+#modes {
+display:flex;
+flex-direction:row;
 
 }
 
 #container{
-
+background-color: white;
+border-radius:10px;
+border-width: 6px;
 display:grid;
 /*grid-template-columns: repeat( auto-fit, minmax(20px, 1fr) );*/
 row-gap:0px;
 column-gap:0px;
-height: 400px;
-width: 400px;
+height: 600px;
+width: 600px;
 margin-left:auto;
 margin-right:auto;
 margin-top:20px;
 grid-auto-flow: dense;
+margin-bottom: 40px;
 }
 .etchgrid{
 border-width: 1px;
